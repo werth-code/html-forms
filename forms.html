@@ -11,19 +11,19 @@
 
     <h1>This Is A Place To Practice With HTML Forms</h1>
 
-    <form id="contact_form" action="/my-handling-form-page" method="post"> 
+    <form id="form" action="/sent-my-message" method="post"> 
         <ul>
             <li>
                 <label for="name">Name</label>
-                <input type="text" id="name" name="user_name" value="Your Name">
+                <input type="text" id="name" name="user_name" placeholder="User">
             </li>
             <li>
                 <label for="mail">E-Mail</label>
-                <input type="email" id="mail" name ="user_email" value="Your E-Mail">
+                <input type="email" id="mail" name ="user_email" placeholder="E-Mail">
             </li>
             <li>
                 <label for="msg">Message</label>
-                <textarea id="message" name="user_message">This is a default value</textarea>
+                <textarea id="message" name="user_message" placeholder="Message"></textarea>
             </li>
 
             <li class="button">
@@ -35,16 +35,18 @@
 
     <h2>Log-In To Your Account</h2>
 
-    <form id="log_in_form" action="/log-in-page" method="POST">
+    <form id="form" action="/log-in-page" method="POST">
         <div>
             <label for="user_name">Username</label>
-            <input type="text" name="Username" id="user_name">
+            <input type="text" name="Username" id="user_name" placeholder="Username">
         </div>
         <div>
             <label for="password">Password</label>
-            <input type="password" name="password" id="password">
+            <input type="password" name="password" id="password" placeholder="Password">
         </div>
-        <button type="submit">Submit</button>
+        <div id="submit_button_div">
+        <button type="submit" id="submit_login">Submit</button>
+        </div>
     </form>
 
 
