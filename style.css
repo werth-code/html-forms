@@ -1,7 +1,13 @@
 h1 {
-    color: blueviolet;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
+
+h2 {
+    text-align: center;
+    color: cadetblue;
+}
+
 
 ul {
     list-style: none;
@@ -24,6 +30,7 @@ textarea {
     width: 300px;
     box-sizing: border-box;
     border: 1px solid #999;
+    margin-right: .5em;
 }
 
 
@@ -35,20 +42,18 @@ textarea {
 button {
     margin-left: 1em;
     margin-top: 1em;
+    margin-bottom: 1em;
     padding: .5em;
     
 }
 
-h2 {
-    text-align: center;
-    color: cadetblue;
-}
-
-#form {
+.forms form {
     text-align: center;
     padding-top: 1em;
     margin-top: 1em;
-    border: 2px solid blueviolet;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid cadetblue;
 }
 
 label {
@@ -56,12 +61,16 @@ label {
 }
 
 .nav {
+    margin-top: 15px;
+    margin-bottom: 15px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-.nav_item {
-
+.forms {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
