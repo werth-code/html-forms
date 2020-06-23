@@ -50,3 +50,8 @@ textarea {
 button {
     margin-left: .5em;
 }
+
+h2 {
+    text-align: center;
+    color: cadetblue;
+}
