@@ -46,8 +46,22 @@ h2 {
 
 #form {
     text-align: center;
+    padding-top: 1em;
+    margin-top: 1em;
+    border: 2px solid blueviolet;
 }
 
 label {
     display: inline-block;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav_item {
+
 }

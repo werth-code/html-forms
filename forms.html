@@ -9,7 +9,19 @@
 </head>
 <body>
 
-    <h1>This Is A Place To Practice With HTML Forms</h1>
+    <header>
+        <h1>Practice HTML Forms</h1>
+    </header>
+
+    <nav class="nav">
+        
+            <div class="nav nav_item-1"><a href="https://www.google.com">Google</a></div>
+            <div class="nav nav_item-2"><a href="https://www.google.com">GoogleAgain</a></div>
+            <div class="nav nav_item-3"><a href="https://www.google.com">YesGoogle</a></div>
+            <div class="nav nav_item-4"><a href="https://www.google.com">StillGoogle</a></div>
+            <div class="nav nav_item-5"><a href="https://www.google.com">AndYesGoogle</a></div>
+        
+    </nav>
 
     <form id="form" action="/sent-my-message" method="post"> 
         <ul>
@@ -36,10 +48,11 @@
     <h2>Log-In To Your Account</h2>
 
     <form id="form" action="/log-in-page" method="POST">
-        <div>
+        <div class="image_container">
             <label for="user_name">Username</label>
             <input type="text" name="Username" id="user_name" placeholder="Username">
         </div>
+            <br>
         <div>
             <label for="password">Password</label>
             <input type="password" name="password" id="password" placeholder="Password">
